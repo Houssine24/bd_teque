@@ -19,6 +19,7 @@ class CreateBd extends Migration
             $table->string('resume_bd');
             $table->string('image_bd');
             $table->integer('tome_bd');
+            $table->integer('auteur_bd');
             $table->string('commentaire_bd');
             $table->timestamps();
         });

@@ -1,0 +1,49 @@
+.titreHome{
+	text-align: center;
+}
+
+.imgHome{
+	height:100%;
+	width: 50%;
+}
+
+.contentHome{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+	margin-top: 15%;
+}
+
+.card{
+	width: 18rem;
+}
+
+.card-img-top{
+	height: 80%;
+	width: 20%;
+}
+
+.iconeCollec{
+	height: 25%;
+	width: 25%;
+}
+
+.container{
+	margin-top: 10%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
+.row{
+	margin-left: 15%;
+}
+
+.infoBD{
+	border: none;
+	background: rgba(255,255,255,0);
+}
+
+.description{
+	margin-left: 15%;
+}

@@ -12,5 +12,16 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('accueil');
 });
+
+// Route::get('consulter', function () {
+//     return view('consulter');
+// });
+
+Route::get('/consulte', 'BdController@getRecupid');
+
+Route::get('/consulter', 'BdController@getBD');
+Route::get('/collection', 'CollectionController@getCollection');
+
+
